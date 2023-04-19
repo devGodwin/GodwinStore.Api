@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GodwinStore.Api</name>
+    </assembly>
+    <members>
+        <member name="M:GodwinStore.Api.Controllers.CustomerController.RegisterCustomer(GodwinStore.Api.Model.CustomerModel.RequestModel.RegisterCustomerRequestModel)">
+            <summary>
+            Register a new customer
+            </summary>
+            <param name="requestModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.CustomerController.LoginCustomer(GodwinStore.Api.Model.CustomerModel.RequestModel.CustomerLoginRequestModel)">
+            <summary>
+            Login Customer
+            </summary>
+            <param name="requestModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.CustomerController.GetAllCustomers">
+            <summary>
+            Get all customers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.CustomerController.GetCustomerById(System.String)">
+            <summary>
+            Retrieve a product
+            </summary>
+            <param name="customerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.CustomerController.UpdateCustomer(System.String,GodwinStore.Api.Model.CustomerModel.RequestModel.RegisterCustomerUpdateModel)">
+            <summary>
+            Update a customer
+            </summary>
+            <param name="customerId"></param>
+            <param name="updateModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.CustomerController.DeleteCustomer(System.String)">
+            <summary>
+             Delete a customer
+            </summary>
+            <param name="customerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.OrderController.PlaceOrder(GodwinStore.Api.Model.OrderModel.RequestModel.OrderRequestModel)">
+            <summary>
+            Place a new order
+            </summary>
+            <param name="requestModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.OrderController.GetAllOrders">
+            <summary>
+            Get all orders
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.OrderController.GetOrderById(System.String)">
+            <summary>
+            Retrieve order
+            </summary>
+            <param name="orderId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.OrderController.UpdateOrder(System.String,GodwinStore.Api.Model.OrderModel.RequestModel.OrderUpdateModel)">
+            <summary>
+            Update order
+            </summary>
+            <param name="orderId"></param>
+            <param name="updateModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.OrderController.DeleteOrder(System.String)">
+            <summary>
+             Delete order
+            </summary>
+            <param name="orderId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.ProductController.CreateProduct(GodwinStore.Api.Model.ProductModel.RequestModel.ProductRequestModel)">
+            <summary>
+            Create a new product
+            </summary>
+            <param name="requestModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.ProductController.GetAllProducts">
+            <summary>
+            Get all product
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.ProductController.GetProductById(System.String)">
+            <summary>
+            Retrieve a product
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.ProductController.UpdateProduct(System.String,GodwinStore.Api.Model.ProductModel.RequestModel.ProductUpdateModel)">
+            <summary>
+            Update a product
+            </summary>
+            <param name="productId"></param>
+            <param name="updateModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GodwinStore.Api.Controllers.ProductController.DeleteProduct(System.String)">
+            <summary>
+             Delete a product
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

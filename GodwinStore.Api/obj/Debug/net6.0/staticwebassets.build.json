@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8af0wqAUhzviUnhX5BJl7gQxja9mfpxbiW1r2SgSvfQ=",
+  "Source": "GodwinStore.Api",
+  "BasePath": "_content/GodwinStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
